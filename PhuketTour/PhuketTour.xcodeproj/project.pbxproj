@@ -1,0 +1,731 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A49C13621CFC84200DF02AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A49C13521CFC84200DF02AB /* AppDelegate.m */; };
+		2A49C13921CFC84200DF02AB /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2A49C13821CFC84200DF02AB /* ViewController.mm */; };
+		2A49C13C21CFC84200DF02AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A49C13A21CFC84200DF02AB /* Main.storyboard */; };
+		2A49C13E21CFC84400DF02AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A49C13D21CFC84400DF02AB /* Assets.xcassets */; };
+		2A49C14121CFC84400DF02AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A49C13F21CFC84400DF02AB /* LaunchScreen.storyboard */; };
+		2A49C14421CFC84400DF02AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A49C14321CFC84400DF02AB /* main.m */; };
+		2A49C14E21CFC84400DF02AB /* PhuketTourTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A49C14D21CFC84400DF02AB /* PhuketTourTests.m */; };
+		2A49C15921CFC84400DF02AB /* PhuketTourUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A49C15821CFC84400DF02AB /* PhuketTourUITests.m */; };
+		2A49C16721CFC89E00DF02AB /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A49C16621CFC89E00DF02AB /* ViewController.xib */; };
+		2A49C16A21CFD28F00DF02AB /* Mp3Encoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A49C16821CFD28F00DF02AB /* Mp3Encoder.cpp */; };
+		2A49C16E21D06DD000DF02AB /* CommonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A49C16C21D06DD000DF02AB /* CommonUtil.m */; };
+		2A49C17121D06DE900DF02AB /* vocal.pcm in Resources */ = {isa = PBXBuildFile; fileRef = 2A49C17021D06DE900DF02AB /* vocal.pcm */; };
+		2A49C17921D07DA400DF02AB /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A49C17721D06E1000DF02AB /* libmp3lame.a */; };
+		2F1145E4804B122FD431A558 /* libPods-PhuketTour.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47CF7767708C221842BB3B96 /* libPods-PhuketTour.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A49C14A21CFC84400DF02AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A49C12921CFC84100DF02AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A49C13021CFC84100DF02AB;
+			remoteInfo = PhuketTour;
+		};
+		2A49C15521CFC84400DF02AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A49C12921CFC84100DF02AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A49C13021CFC84100DF02AB;
+			remoteInfo = PhuketTour;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		283F1DB3FB8459C89C7490A4 /* Pods-PhuketTour.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhuketTour.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhuketTour/Pods-PhuketTour.release.xcconfig"; sourceTree = "<group>"; };
+		2A49C13121CFC84100DF02AB /* PhuketTour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhuketTour.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A49C13421CFC84200DF02AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2A49C13521CFC84200DF02AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2A49C13721CFC84200DF02AB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2A49C13821CFC84200DF02AB /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		2A49C13B21CFC84200DF02AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A49C13D21CFC84400DF02AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A49C14021CFC84400DF02AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A49C14221CFC84400DF02AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A49C14321CFC84400DF02AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A49C14921CFC84400DF02AB /* PhuketTourTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhuketTourTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A49C14D21CFC84400DF02AB /* PhuketTourTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhuketTourTests.m; sourceTree = "<group>"; };
+		2A49C14F21CFC84400DF02AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A49C15421CFC84400DF02AB /* PhuketTourUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhuketTourUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A49C15821CFC84400DF02AB /* PhuketTourUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhuketTourUITests.m; sourceTree = "<group>"; };
+		2A49C15A21CFC84400DF02AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A49C16621CFC89E00DF02AB /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		2A49C16821CFD28F00DF02AB /* Mp3Encoder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Mp3Encoder.cpp; sourceTree = "<group>"; };
+		2A49C16921CFD28F00DF02AB /* Mp3Encoder.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Mp3Encoder.hpp; sourceTree = "<group>"; };
+		2A49C16C21D06DD000DF02AB /* CommonUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonUtil.m; sourceTree = "<group>"; };
+		2A49C16D21D06DD000DF02AB /* CommonUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonUtil.h; sourceTree = "<group>"; };
+		2A49C17021D06DE900DF02AB /* vocal.pcm */ = {isa = PBXFileReference; lastKnownFileType = file; path = vocal.pcm; sourceTree = "<group>"; };
+		2A49C17521D06E1000DF02AB /* lame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lame.h; sourceTree = "<group>"; };
+		2A49C17721D06E1000DF02AB /* libmp3lame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmp3lame.a; sourceTree = "<group>"; };
+		4656D081A8B6377877FA8B4D /* Pods-PhuketTour.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhuketTour.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhuketTour/Pods-PhuketTour.debug.xcconfig"; sourceTree = "<group>"; };
+		47CF7767708C221842BB3B96 /* libPods-PhuketTour.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PhuketTour.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A49C12E21CFC84100DF02AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A49C17921D07DA400DF02AB /* libmp3lame.a in Frameworks */,
+				2F1145E4804B122FD431A558 /* libPods-PhuketTour.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A49C14621CFC84400DF02AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A49C15121CFC84400DF02AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07C194F804A64C758D9EA5F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47CF7767708C221842BB3B96 /* libPods-PhuketTour.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A49C12821CFC84100DF02AB = {
+			isa = PBXGroup;
+			children = (
+				2A49C13321CFC84200DF02AB /* PhuketTour */,
+				2A49C14C21CFC84400DF02AB /* PhuketTourTests */,
+				2A49C15721CFC84400DF02AB /* PhuketTourUITests */,
+				2A49C13221CFC84100DF02AB /* Products */,
+				3D8B67170AF444DDC9095ABE /* Pods */,
+				07C194F804A64C758D9EA5F2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2A49C13221CFC84100DF02AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A49C13121CFC84100DF02AB /* PhuketTour.app */,
+				2A49C14921CFC84400DF02AB /* PhuketTourTests.xctest */,
+				2A49C15421CFC84400DF02AB /* PhuketTourUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A49C13321CFC84200DF02AB /* PhuketTour */ = {
+			isa = PBXGroup;
+			children = (
+				2A49C17221D06E1000DF02AB /* fat-lame */,
+				2A49C16F21D06DE900DF02AB /* resource */,
+				2A49C16B21D06DD000DF02AB /* utils */,
+				2A49C13421CFC84200DF02AB /* AppDelegate.h */,
+				2A49C13521CFC84200DF02AB /* AppDelegate.m */,
+				2A49C13721CFC84200DF02AB /* ViewController.h */,
+				2A49C13821CFC84200DF02AB /* ViewController.mm */,
+				2A49C13A21CFC84200DF02AB /* Main.storyboard */,
+				2A49C13D21CFC84400DF02AB /* Assets.xcassets */,
+				2A49C13F21CFC84400DF02AB /* LaunchScreen.storyboard */,
+				2A49C14221CFC84400DF02AB /* Info.plist */,
+				2A49C14321CFC84400DF02AB /* main.m */,
+				2A49C16621CFC89E00DF02AB /* ViewController.xib */,
+				2A49C16821CFD28F00DF02AB /* Mp3Encoder.cpp */,
+				2A49C16921CFD28F00DF02AB /* Mp3Encoder.hpp */,
+			);
+			path = PhuketTour;
+			sourceTree = "<group>";
+		};
+		2A49C14C21CFC84400DF02AB /* PhuketTourTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A49C14D21CFC84400DF02AB /* PhuketTourTests.m */,
+				2A49C14F21CFC84400DF02AB /* Info.plist */,
+			);
+			path = PhuketTourTests;
+			sourceTree = "<group>";
+		};
+		2A49C15721CFC84400DF02AB /* PhuketTourUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2A49C15821CFC84400DF02AB /* PhuketTourUITests.m */,
+				2A49C15A21CFC84400DF02AB /* Info.plist */,
+			);
+			path = PhuketTourUITests;
+			sourceTree = "<group>";
+		};
+		2A49C16B21D06DD000DF02AB /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				2A49C16C21D06DD000DF02AB /* CommonUtil.m */,
+				2A49C16D21D06DD000DF02AB /* CommonUtil.h */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		2A49C16F21D06DE900DF02AB /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				2A49C17021D06DE900DF02AB /* vocal.pcm */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		2A49C17221D06E1000DF02AB /* fat-lame */ = {
+			isa = PBXGroup;
+			children = (
+				2A49C17321D06E1000DF02AB /* include */,
+				2A49C17621D06E1000DF02AB /* lib */,
+			);
+			path = "fat-lame";
+			sourceTree = "<group>";
+		};
+		2A49C17321D06E1000DF02AB /* include */ = {
+			isa = PBXGroup;
+			children = (
+				2A49C17421D06E1000DF02AB /* lame */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		2A49C17421D06E1000DF02AB /* lame */ = {
+			isa = PBXGroup;
+			children = (
+				2A49C17521D06E1000DF02AB /* lame.h */,
+			);
+			path = lame;
+			sourceTree = "<group>";
+		};
+		2A49C17621D06E1000DF02AB /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				2A49C17721D06E1000DF02AB /* libmp3lame.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		3D8B67170AF444DDC9095ABE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4656D081A8B6377877FA8B4D /* Pods-PhuketTour.debug.xcconfig */,
+				283F1DB3FB8459C89C7490A4 /* Pods-PhuketTour.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A49C13021CFC84100DF02AB /* PhuketTour */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A49C15D21CFC84400DF02AB /* Build configuration list for PBXNativeTarget "PhuketTour" */;
+			buildPhases = (
+				7486ED2A348A9E6C365E1481 /* [CP] Check Pods Manifest.lock */,
+				2A49C12D21CFC84100DF02AB /* Sources */,
+				2A49C12E21CFC84100DF02AB /* Frameworks */,
+				2A49C12F21CFC84100DF02AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhuketTour;
+			productName = PhuketTour;
+			productReference = 2A49C13121CFC84100DF02AB /* PhuketTour.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A49C14821CFC84400DF02AB /* PhuketTourTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A49C16021CFC84400DF02AB /* Build configuration list for PBXNativeTarget "PhuketTourTests" */;
+			buildPhases = (
+				2A49C14521CFC84400DF02AB /* Sources */,
+				2A49C14621CFC84400DF02AB /* Frameworks */,
+				2A49C14721CFC84400DF02AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A49C14B21CFC84400DF02AB /* PBXTargetDependency */,
+			);
+			name = PhuketTourTests;
+			productName = PhuketTourTests;
+			productReference = 2A49C14921CFC84400DF02AB /* PhuketTourTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2A49C15321CFC84400DF02AB /* PhuketTourUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A49C16321CFC84400DF02AB /* Build configuration list for PBXNativeTarget "PhuketTourUITests" */;
+			buildPhases = (
+				2A49C15021CFC84400DF02AB /* Sources */,
+				2A49C15121CFC84400DF02AB /* Frameworks */,
+				2A49C15221CFC84400DF02AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A49C15621CFC84400DF02AB /* PBXTargetDependency */,
+			);
+			name = PhuketTourUITests;
+			productName = PhuketTourUITests;
+			productReference = 2A49C15421CFC84400DF02AB /* PhuketTourUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A49C12921CFC84100DF02AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "司伟红";
+				TargetAttributes = {
+					2A49C13021CFC84100DF02AB = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					2A49C14821CFC84400DF02AB = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 2A49C13021CFC84100DF02AB;
+					};
+					2A49C15321CFC84400DF02AB = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 2A49C13021CFC84100DF02AB;
+					};
+				};
+			};
+			buildConfigurationList = 2A49C12C21CFC84100DF02AB /* Build configuration list for PBXProject "PhuketTour" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A49C12821CFC84100DF02AB;
+			productRefGroup = 2A49C13221CFC84100DF02AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A49C13021CFC84100DF02AB /* PhuketTour */,
+				2A49C14821CFC84400DF02AB /* PhuketTourTests */,
+				2A49C15321CFC84400DF02AB /* PhuketTourUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A49C12F21CFC84100DF02AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A49C17121D06DE900DF02AB /* vocal.pcm in Resources */,
+				2A49C14121CFC84400DF02AB /* LaunchScreen.storyboard in Resources */,
+				2A49C13E21CFC84400DF02AB /* Assets.xcassets in Resources */,
+				2A49C16721CFC89E00DF02AB /* ViewController.xib in Resources */,
+				2A49C13C21CFC84200DF02AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A49C14721CFC84400DF02AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A49C15221CFC84400DF02AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7486ED2A348A9E6C365E1481 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhuketTour-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A49C12D21CFC84100DF02AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A49C16E21D06DD000DF02AB /* CommonUtil.m in Sources */,
+				2A49C13921CFC84200DF02AB /* ViewController.mm in Sources */,
+				2A49C14421CFC84400DF02AB /* main.m in Sources */,
+				2A49C13621CFC84200DF02AB /* AppDelegate.m in Sources */,
+				2A49C16A21CFD28F00DF02AB /* Mp3Encoder.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A49C14521CFC84400DF02AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A49C14E21CFC84400DF02AB /* PhuketTourTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A49C15021CFC84400DF02AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A49C15921CFC84400DF02AB /* PhuketTourUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A49C14B21CFC84400DF02AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A49C13021CFC84100DF02AB /* PhuketTour */;
+			targetProxy = 2A49C14A21CFC84400DF02AB /* PBXContainerItemProxy */;
+		};
+		2A49C15621CFC84400DF02AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A49C13021CFC84100DF02AB /* PhuketTour */;
+			targetProxy = 2A49C15521CFC84400DF02AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A49C13A21CFC84200DF02AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A49C13B21CFC84200DF02AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A49C13F21CFC84400DF02AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A49C14021CFC84400DF02AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A49C15B21CFC84400DF02AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2A49C15C21CFC84400DF02AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A49C15E21CFC84400DF02AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4656D081A8B6377877FA8B4D /* Pods-PhuketTour.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SHURF323R7;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/Mantle\"",
+					"$(SRCROOT)",
+				);
+				INFOPLIST_FILE = PhuketTour/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PhuketTour/fat-lame/lib",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mimou.PhuketTour;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Debug;
+		};
+		2A49C15F21CFC84400DF02AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 283F1DB3FB8459C89C7490A4 /* Pods-PhuketTour.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SHURF323R7;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/Mantle\"",
+					"$(SRCROOT)",
+				);
+				INFOPLIST_FILE = PhuketTour/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PhuketTour/fat-lame/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mimou.PhuketTour;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Release;
+		};
+		2A49C16121CFC84400DF02AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SHURF323R7;
+				INFOPLIST_FILE = PhuketTourTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mimou.PhuketTourTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhuketTour.app/PhuketTour";
+			};
+			name = Debug;
+		};
+		2A49C16221CFC84400DF02AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SHURF323R7;
+				INFOPLIST_FILE = PhuketTourTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mimou.PhuketTourTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhuketTour.app/PhuketTour";
+			};
+			name = Release;
+		};
+		2A49C16421CFC84400DF02AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SHURF323R7;
+				INFOPLIST_FILE = PhuketTourUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mimou.PhuketTourUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PhuketTour;
+			};
+			name = Debug;
+		};
+		2A49C16521CFC84400DF02AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SHURF323R7;
+				INFOPLIST_FILE = PhuketTourUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mimou.PhuketTourUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PhuketTour;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A49C12C21CFC84100DF02AB /* Build configuration list for PBXProject "PhuketTour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A49C15B21CFC84400DF02AB /* Debug */,
+				2A49C15C21CFC84400DF02AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A49C15D21CFC84400DF02AB /* Build configuration list for PBXNativeTarget "PhuketTour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A49C15E21CFC84400DF02AB /* Debug */,
+				2A49C15F21CFC84400DF02AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A49C16021CFC84400DF02AB /* Build configuration list for PBXNativeTarget "PhuketTourTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A49C16121CFC84400DF02AB /* Debug */,
+				2A49C16221CFC84400DF02AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A49C16321CFC84400DF02AB /* Build configuration list for PBXNativeTarget "PhuketTourUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A49C16421CFC84400DF02AB /* Debug */,
+				2A49C16521CFC84400DF02AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A49C12921CFC84100DF02AB /* Project object */;
+}

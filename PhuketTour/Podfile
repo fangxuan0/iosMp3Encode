@@ -1,0 +1,7 @@
+platform :ios, '8.0'
+target "PhuketTour" do
+
+pod 'Mantle', '1.5'
+pod 'AFNetworking', ' ~> 3.1.0'
+
+end
